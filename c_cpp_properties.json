@@ -1,0 +1,35 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/usr/lib/gcc/x86_64-linux-gnu/7/include",
+                "/lib/modules/4.15.0-143-generic/build/arch/x86/include",
+                "/lib/modules/4.15.0-143-generic/build/arch/x86/include/generated",
+                "/lib/modules/4.15.0-143-generic/build/include",
+                "/lib/modules/4.15.0-143-generic/build/arch/x86/include/uapi",
+                "/lib/modules/4.15.0-143-generic/build/arch/x86/include/generated/uapi",
+                "/lib/modules/4.15.0-143-generic/build/include/uapi",
+                "/lib/modules/4.15.0-143-generic/build/include/generated/uapi",
+                "/usr/src/linux-headers-4.15.0-143/arch/x86/include/asm",
+                "/usr/src/linux-headers-4.15.0-143/arch/x86/include/uapi/asm",
+                "/usr/include/x86_64-linux-gnu",
+                "/usr/include/x86_64-linux-gnu/bits"
+            ],
+            "defines": [
+                "__KERNEL__",
+                "CC_USING_FENTRY",
+                "STRUCTLEAK_PLUGIN",
+                "MODULE"
+            ],
+            "compilerPath": "/usr/bin/gcc",
+            "compilerArgs": [
+                "-nostdinc"
+            ],
+            "cStandard": "c11",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}
