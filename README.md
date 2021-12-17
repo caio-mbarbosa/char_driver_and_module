@@ -8,8 +8,8 @@ To run:
   ./test      (this c file is to test the driver)
   
   Group member:
-    Joao Paulo Albuquerque
-    Júlio Cesar Farias da Luz
-    Matheus Bueno Rodrigues
-    Bianca Carneiro
+    Joao Paulo Albuquerque, 
+    Júlio Cesar Farias da Luz, 
+    Matheus Bueno Rodrigues, 
+    Bianca Carneiro, 
     Caio de Mendonça Barbosa
